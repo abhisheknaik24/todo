@@ -1,0 +1,39 @@
+:root {
+    --primary-color: #00425a;
+    --secondary-color: #dcd7c9;
+    --main-color: #1f8a70;
+    --white-color: #fff;
+    --black-color: #000;
+    --bg-color: #fcffe7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    color: var(--black-color);
+    background-color: var(--bg-color);
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    margin: auto;
+    max-width: 120rem;
+}
